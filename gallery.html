@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | MyWebsite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">MyWebsite</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">&#9776;</div>
+  </header>
+
+  <section>
+    <h2>Gallery</h2>
+    <p>Check out some of our work below:</p>
+    <div class="gallery">
+      <img src="pics/se.webp" alt="Gallery 1">
+      <img src="pics/ai.webp" alt="Gallery 2">
+      <img src="pics/aut.webp" alt="Gallery 3">
+      <img src="pics/css.webp" alt="Gallery 4">
+      <img src="pics/cssss.jpg" alt="Gallery 5">
+      <img src="pics/dm.jpg" alt="Gallery 6">
+    </div>
+  </section>
+
+  <!-- Lightbox Preview -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
+  <footer>
+    <p>&copy; 2025 MyWebsite | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
